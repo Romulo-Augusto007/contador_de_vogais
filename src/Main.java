@@ -3,11 +3,6 @@ public class Main{
     public static void main (String[] args){
         Scanner scanner = new Scanner(System.in);
         String nome = "";
-        char a = 'a';
-        char e = 'e';
-        char ii = 'i';
-        char o = 'o';
-        char u = 'u';
         int contadorA = 0;
         int contadorE = 0;
         int contadorI = 0;
@@ -19,23 +14,23 @@ public class Main{
         int num = nome.length();
         for(int i = 0; i < num; i++){
             char letra = nome.charAt(i);
-            if (letra == a){
+            if (letra == 'a'){
                 contador++;
                 contadorA++;
             }
-            if (letra == e){
+            if (letra == 'e'){
                 contador++;
                 contadorE++;
             }
-            if (letra == ii){
+            if (letra == 'i'){
                 contador++;
                 contadorI++;
             }
-            if (letra == o){
+            if (letra == 'o'){
                 contador++;
                 contadorO++;
             }
-            if (letra == u){
+            if (letra == 'u'){
                 contador++;
                 contadorU++;
             }
